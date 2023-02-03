@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+        margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+    width: 100%;
+}
+.header__nav{
+        background: #282828;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.header__nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.header-phone{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.search{
+    display: flex;
+    gap: 25px;
+}
+.market{
+    color: white;
+}
+.header-content{
+    background: url(../images/основа.jpg);
+    height: 700px;
+    
+}
+.content-head{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 59px;
+}
+.airsite{
+    font-size: 100px;
+line-height: 75px;
+/* identical to box height, or 75% */
+color: #FFFFFF;
+
+}
+.officia{
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 11px;
+    font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+color: #171718;
+}
+.footer{
+    background: #282828;
+box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+height: 215px;
+}
+.footer-ul{
+    display: flex;
+    gap: 30px;
+}
+.cards{
+display: flex;
+gap: 30px;
+}
+.ccskrf{
+    
+    font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.main{
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0) 0%, #151515 100%), url(191028135414-airpods-pro-apple.jpg);
+}
+.four-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px 0;
+   
+}
+.re{
+    max-height: 167px;
+    height: 100%;
+
+    
+}
+.iphone11pro,
+.iPhone11,
+.iPhoneSE,
+.iPhoneXR{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 47px;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+    
+    width: 255px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #FFFFFF;
+    background: #000000;
+    padding: 7px 57px;
+
+}
+.sdf{
+    font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+.p-iphote{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+text-transform: uppercase;
+color: #000000;
+
+}
+
+.main-two{
+margin: 20px 0;
+}
+.main-three,
+.main-two,
+.main-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main__one-text{
+    font-size: 22px;
+    line-height: 27px;
+    width: 538px;
+    color: #FFFFFF;
+}
+.main__two-text{
+    font-size: 22px;
+line-height: 27px;
+width: 540px;
+
+color: #FFFFFF;
+}
+.main-three__text1,
+.main-three__text2{
+    font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+.main-three__text1{
+    text-align: right;
+}
+
+.main-three{
+    display: flex;
+    gap: 15px;
+}
+.airpod{
+    
+    display: flex;
+    gap: 13px;
+    align-items: center;   
+}
+
+.airpod::before,
+.airpod::after{
+    content: '';
+    display: block;
+    background: #C4C4C4;
+    width: 61px;
+    height: 1px;
+    flex-wrap: nowrap;
+    gap: 20px;
+
+}
+@media(max-width:1070px){
+    .four-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .iphone11pro,
+.iPhone11,
+.iPhoneSE,
+.iPhoneXR{
+display: flex;
+gap: 18px;
+justify-content: center;
+}
+}
+@media(max-width:1140px){
+    .main-three,
+    .main-two,
+    .main-one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .airpod::before,
+    .airpod::after{
+        content: '';
+    display: block;
+    background: #C4C4C4;
+    width: 61px;
+    height: 1px;
+    
+    }
+}
+@media(max-width:895px){
+    .main-three,
+    .main-two,
+    .main-one{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+@media(max-width:549px){
+    .three{
+    max-width: 500px;
+    }
+    .airsite{
+        font-size: 50px;
+    }
+    .main__one-text,
+    .main__two-text,
+    .main-three__text1,
+    .main-three__text2{
+        width: 300px;
+        gap: 8px;
+    }
+    
+}
+@media(max-width:500px){
+    .three,
+    .blackair,
+    .pod{
+        max-width: 319px;
+    }
+    .main{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+
+    }
+    .header-content{
+    max-width: 500px;
+    width: 100%;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:418px){
+    .airpod{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:380px){
+    .header__nav-container {
+        flex-direction: column;
+    }
+}
