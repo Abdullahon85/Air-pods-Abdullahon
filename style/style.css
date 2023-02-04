@@ -39,7 +39,7 @@ ul{
     color: white;
 }
 .header-content{
-    background: url(../images/основа.jpg);
+    background: url(../images/основа.jpg) no-repeat center /cover;
     height: 700px;
     
 }
